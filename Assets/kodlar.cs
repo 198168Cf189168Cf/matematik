@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using TMPro;
+using System;
 
 public class kodlar : MonoBehaviour
 {
@@ -18,9 +18,9 @@ public class kodlar : MonoBehaviour
     void Update()
     {
 
-        if(Input.Ge)
+        if(Input.GetKeyDown(KeyCode.KeypadEnter))
         {
-            if(sonucbtn.text == islemsonucu) Debug.Log("İŞLEM DOĞRU!");
+            if(Int32.Parse(sonucbtn.text) == islemsonucu) Debug.Log("İŞLEM DOĞRU!");
         }
 
         
