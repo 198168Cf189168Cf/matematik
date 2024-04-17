@@ -18,9 +18,9 @@ public class kodlar : MonoBehaviour
     void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.KeypadEnter))
+        if(Input.GetKeyDown(KeyCode.Return))
         {
-            if(Int32.Parse(sonucbtn.text) == islemsonucu) Debug.Log("İŞLEM DOĞRU!");
+            if(Convert.ToInt32(sonucbtn.text) == islemsonucu) Debug.Log("İŞLEM DOĞRU!");
         }
 
         
@@ -31,9 +31,9 @@ public class kodlar : MonoBehaviour
     {
         sonuc.text="";
         sonucbtn.text="";
-        s1 = Random.Range(1,10);
-        s2 = Random.Range(1,10);
-        islemisareti = Random.Range(1,5);
+        s1 = UnityEngine.Random.Range(1,10);
+        s2 = UnityEngine.Random.Range(1,10);
+        islemisareti = UnityEngine.Random.Range(1,5);
 
         switch(islemisareti)
        {

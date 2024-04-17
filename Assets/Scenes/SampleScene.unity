@@ -202,7 +202,6 @@ GameObject:
   - component: {fileID: 500990084}
   - component: {fileID: 500990086}
   - component: {fileID: 500990085}
-  - component: {fileID: 500990087}
   m_Layer: 5
   m_Name: sayi2
   m_TagString: Untagged
@@ -326,24 +325,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500990083}
   m_CullTransparentMesh: 1
---- !u!114 &500990087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500990083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8857911e1605767419c66adea814cf75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ilksayi: {fileID: 0}
-  ikincisayi: {fileID: 0}
-  islem: {fileID: 0}
-  cevap: {fileID: 0}
-  sonuc: {fileID: 0}
-  sonucbtn: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +428,6 @@ GameObject:
   - component: {fileID: 651822439}
   - component: {fileID: 651822441}
   - component: {fileID: 651822440}
-  - component: {fileID: 651822442}
   m_Layer: 5
   m_Name: islem
   m_TagString: Untagged
@@ -571,24 +551,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651822438}
   m_CullTransparentMesh: 1
---- !u!114 &651822442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651822438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8857911e1605767419c66adea814cf75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ilksayi: {fileID: 0}
-  ikincisayi: {fileID: 0}
-  islem: {fileID: 0}
-  cevap: {fileID: 0}
-  sonuc: {fileID: 0}
-  sonucbtn: {fileID: 0}
 --- !u!1 &832360013
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +562,6 @@ GameObject:
   - component: {fileID: 832360014}
   - component: {fileID: 832360016}
   - component: {fileID: 832360015}
-  - component: {fileID: 832360017}
   m_Layer: 5
   m_Name: sayi1
   m_TagString: Untagged
@@ -724,24 +685,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832360013}
   m_CullTransparentMesh: 1
---- !u!114 &832360017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832360013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8857911e1605767419c66adea814cf75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ilksayi: {fileID: 0}
-  ikincisayi: {fileID: 0}
-  islem: {fileID: 0}
-  cevap: {fileID: 0}
-  sonuc: {fileID: 0}
-  sonucbtn: {fileID: 0}
 --- !u!1 &924117087
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,7 +1511,6 @@ GameObject:
   - component: {fileID: 1487211332}
   - component: {fileID: 1487211334}
   - component: {fileID: 1487211333}
-  - component: {fileID: 1487211335}
   m_Layer: 5
   m_Name: esittir
   m_TagString: Untagged
@@ -1692,24 +1634,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487211331}
   m_CullTransparentMesh: 1
---- !u!114 &1487211335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1487211331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8857911e1605767419c66adea814cf75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ilksayi: {fileID: 0}
-  ikincisayi: {fileID: 0}
-  islem: {fileID: 0}
-  cevap: {fileID: 0}
-  sonuc: {fileID: 0}
-  sonucbtn: {fileID: 0}
 --- !u!1 &1498291008
 GameObject:
   m_ObjectHideFlags: 0
